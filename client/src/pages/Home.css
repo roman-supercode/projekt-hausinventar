@@ -1,0 +1,43 @@
+.headerHome img {
+    width: 100%;
+    margin-top: -8rem;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.4;
+}
+
+.headerHome h1 {
+    margin-top: -10rem;
+    font-size: 6rem;
+    text-align: center;
+    opacity: 0.99;
+}
+
+.headerHome {
+    height: 40vh;
+    margin-bottom: 2rem;
+}
+
+.mainHome {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumbnailCat {
+    height: 40vh;
+    width: 22vw;
+    box-shadow: 2px 2px 5px dimgrey;
+    border-radius: 20px;
+}
+
+.thumbnailCat img {
+    height: 70%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.thumbnailCat h2 {
+    font-size: 1.6rem;
+    text-align: center;
+}
