@@ -1,7 +1,9 @@
 
 const EditButton = () => {
   return (
-    <div>EditButton</div>
-  )
-}
-export default EditButton
+    <button type="button">
+      Edit
+    </button>
+  );
+};
+export default EditButton;
