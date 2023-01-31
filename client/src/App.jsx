@@ -7,7 +7,6 @@ import Edit from './pages/Edit';
 
 function App() {
 
-
   return (
     <div className="App">
       <Router>
@@ -16,7 +15,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/category/:category' element={<Overview />} />
           <Route path='/edit/:id' element={<Edit />} />
-
         </Routes>
       </Router>
 

@@ -1,8 +1,13 @@
 .navbar {
-    background-color: beige;
-    opacity: 0.6;
+    background-color: #DBE2EF;
+    opacity: 0.8;
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
     font-size: 2rem;
+    padding: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
 }
