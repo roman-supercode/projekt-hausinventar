@@ -11,7 +11,7 @@ const AddItem = () => {
 
 
         try {
-            const response = await fetch("http://localhost:9898/api/add", {
+            const response = await fetch("https://hausinventar-server.onrender.com/api/add", {
                 method: "POST",
                 body: form
             });

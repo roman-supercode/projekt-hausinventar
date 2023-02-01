@@ -7,7 +7,7 @@ const ItemList = ({ cat }) => {
 
   const getFetch = async () => {
     try {
-      const response = await fetch(`http://localhost:9898/api/${cat}`);
+      const response = await fetch(`https://hausinventar-server.onrender.com/api/${cat}`);
       const data = await response.json();
       setItems(data);
       // console.log(data);
@@ -25,7 +25,7 @@ const ItemList = ({ cat }) => {
   return (
     <div>
       {items.map((item) => {
-        return <ItemCard img={item.img} name={item.name} room={item.room} key={item._id} />;
+        return <ItemCard img={item.path} name={item.name} room={item.room} key={item._id} />;
       })}
     </div>
   );
