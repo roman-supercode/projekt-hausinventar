@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 
-const EditButton = () => {
+const EditButton = ({ id }) => {
   return (
-    <button type="button">
-      Edit
-    </button>
+    <Link to={`/edit/${id}`}>
+      <button type="button">
+        Edit
+      </button>
+    </Link>
   );
 };
 export default EditButton;
