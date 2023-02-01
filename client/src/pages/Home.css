@@ -1,10 +1,10 @@
 .headerHome img {
     width: 100%;
-    margin-top: -8rem;
+    /* margin-top: -8rem; */
     height: 100%;
     object-fit: cover;
     object-position: center;
-    opacity: 0.4;
+    /* opacity: 0.4; */
 }
 
 .headerHome h1 {
@@ -17,6 +17,7 @@
 .headerHome {
     height: 40vh;
     margin-bottom: 2rem;
+    /* z-index: -1; */
 }
 
 .mainHome {
