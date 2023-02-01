@@ -6,7 +6,7 @@ const ItemCard = (props) => {
   return (
     <div>
       <section className="cardImg">
-        <img src={props.img} alt={props.name} />
+        <img src={"https://hausinventar-server.onrender.com/" + props.img} alt={props.name} />
       </section>
       <section className="cardDetails">
         <h2 className="cardTitle">{props.name}</h2>
@@ -21,6 +21,6 @@ const ItemCard = (props) => {
         <EditButton />
       </section>
     </div>
-  )
-}
-export default ItemCard
+  );
+};
+export default ItemCard;
